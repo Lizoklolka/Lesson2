@@ -92,6 +92,5 @@ func primeArray() -> [Int]{
         return array6
 }
     let array6 = primeArray()
-
 print(array6)
 

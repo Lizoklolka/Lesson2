@@ -75,7 +75,6 @@ Fib()
 func primeArray() -> [Int]{
     var array6 = [2]
     var currentNumber = 3
-    
     while array6.count < 100{
         var primeNumber = true
         for checkNumber in 2...currentNumber - 1{
@@ -93,4 +92,3 @@ func primeArray() -> [Int]{
 }
     let array6 = primeArray()
 print(array6)
-
